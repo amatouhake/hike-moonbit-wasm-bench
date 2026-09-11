@@ -1,0 +1,10 @@
+name,variant,file,raw_bytes,gzip_bytes,brotli_bytes
+Hike Fib (article commit),compiler output,hike-fib-article.wasm,418,302,271
+Hike Fib (article commit),wasm-opt -Oz,hike-fib-article.oz.wasm,598,425,382
+MoonBit Fib (wasm),compiler output,moonbit-fib-wasm.wasm,260,241,226
+MoonBit Fib (wasm),wasm-opt -Oz,moonbit-fib-wasm.oz.wasm,151,160,131
+MoonBit Fib (wasm-gc),compiler output,moonbit-fib-wasm-gc.wasm,222,215,180
+MoonBit Fib (wasm-gc),wasm-opt -Oz,moonbit-fib-wasm-gc.oz.wasm,151,160,131
+Hike browser (article commit),compiler output,hike-browser-article.wasm,1641,919,789
+Hike browser (article commit),wasm-opt -Oz,hike-browser-article.oz.wasm,1665,1064,916
+MoonBit browser (wasm-gc),compiler output,moonbit-browser-wasm-gc.wasm,1045,688,569
