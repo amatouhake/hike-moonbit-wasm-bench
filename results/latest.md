@@ -43,7 +43,7 @@ This includes the host-side JavaScript required by each browser sample. Compress
 Hike latest snapshot failed to build (exit=1).
 commit=6402155652fa61692818fe7985193f0fd97513f5
 
-/tmp/hike_build_4242.ll:143:18: error: use of undefined value '@strlen32'
+/tmp/hike_build_4236.ll:143:18: error: use of undefined value '@strlen32'
   143 |   %v5 = call i32 @strlen32(i8* %v4)
       |                  ^
 1 error generated.
@@ -54,7 +54,7 @@ exit status 1
 ## Toolchain metadata
 
 ```text
-generated_utc=2026-09-11T05:14:19Z
+generated_utc=2026-09-11T05:34:33Z
 hike_article_commit=25c8b53583e765909bce599da5e99da73d98133f
 hike_latest_snapshot=6402155652fa61692818fe7985193f0fd97513f5
 moon_version=moon 0.1.20260904 (94521db 2026-09-04) ~/.moon/bin/moon;moonc v0.10.12+1634b282e (2026-09-07) ~/.moon/bin/moonc;moonrun 0.1.20260904 (94521db 2026-09-04) ~/.moon/bin/moonrun;;Feature flags enabled: rr_moon_mod,rr_moon_pkg;
